@@ -29,7 +29,7 @@ The composite model here is the combination of the generating model and the disc
 As you can notice here the input that is being taken is a randomised array of 100 elements and the output is a single integer 1 or 0 which determines whether the image generated is a number or not. And also the parameters of the discriminating model in the composite model are non-trainable
 
 ### Training Process
-Here the Generating model and the Discriminating model are trained simultaneously. First, the discriminating model is trained seperately, then the parameter are update based on based on the loss from the discriminating model. After that the based on the current discriminating model the generating model is trained.
+Here the Generating model and the Discriminating model are trained simultaneously. First, the discriminating model is trained seperately, then the parameter are update based on based on the loss from the discriminating model. After that, based on the current discriminating model the generating model is trained.
 This training may take a couple of hours on a CPU. But the same training will be done in a couple of minutes.
 
 ### After 10 attempts of generation
