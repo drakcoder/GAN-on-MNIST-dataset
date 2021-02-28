@@ -3,7 +3,7 @@
 
 
 ### Generated adversarial Networks:
-Generated Adversarial Networks(GANs) are an approach to generative modeling using deep learning methonds like CNNs or RNNs.
+Generated Adversarial Networks(GANs) are an approach to generative modeling using deep learning methods like CNNs or RNNs.
 
 ### Present Application
 This technique mainly revolves around two models, namely:
