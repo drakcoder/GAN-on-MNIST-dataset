@@ -30,7 +30,7 @@ As you can notice here the input that is being taken is a randomised array of 10
 
 ### Training Process
 Here the Generating model and the Discriminating model are trained simultaneously. First, the discriminating model is trained seperately, then the parameter are update based on based on the loss from the discriminating model. After that the based on the current discriminating model the generating model is trained.
-This training may take ah couple of hours on a CPU. But the same training will be done in a couple of minutes.
+This training may take a couple of hours on a CPU. But the same training will be done in a couple of minutes.
 
 ### After 10 attempts of generation
 ![generated_plot_e010](https://user-images.githubusercontent.com/67307833/109419172-30a37f80-79f2-11eb-9af7-da1319b73813.png)
