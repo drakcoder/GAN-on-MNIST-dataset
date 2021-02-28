@@ -20,3 +20,28 @@ The discriminating model on the other hand takes the (28,28,1) sized vector whic
 ### The Composite Model:
 
 The composite model here is the combination of the generating model and the discriminating model.
+
+![GAN_plot](https://user-images.githubusercontent.com/67307833/109418578-26cc4d00-79ef-11eb-8ebb-b5a9a0a153e7.png)
+
+As you can notice here the input that is being taken is a randomised array of 100 elements and the output is a single integer 1 or 0 which determines whether the image generated is a number or not. And also the parameters of the discriminating model in the composite model are non-trainable
+
+### Training Process
+Here the Generating model and the Discriminating model are trained simultaneously. First, the discriminating model is trained seperately, then the parameter are update based on based on the loss from the discriminating model. After that the based on the current discriminating model the generating model is trained.
+This training may take ah couple of hours on a CPU. But the same training will be done in a couple of minutes.
+
+### After 10 attempts of generation
+![generated_plot_e010](https://user-images.githubusercontent.com/67307833/109419172-30a37f80-79f2-11eb-9af7-da1319b73813.png)
+
+As you can notice the images are not exactly numbers but are centered pretty well.
+
+### After 50 attempts of generation
+![generated_plot_e050](https://user-images.githubusercontent.com/67307833/109419217-5f215a80-79f2-11eb-8e23-fa9b1fef095a.png)
+
+The numbers are still kinda edgy but we are getting somewhere.
+
+### After 100 attempts of generation
+![generated_plot_e100](https://user-images.githubusercontent.com/67307833/109419258-9a238e00-79f2-11eb-92f8-5b11e9266061.png)
+
+As you can notice, a few numbers can be identified and the edginess of the previous images has decreased by a great extent
+
+This training could be taken further and the numbers could be made a little more identifiable, but there will exist a point where the accuracy of distinctable numbers will be flatlines and can be increased no further
