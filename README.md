@@ -7,8 +7,11 @@ Generated Adversarial Networks(GANs) are an approach to generative modeling usin
 
 ### Present Application
 This technique mainly revolves around two models, namely:
+
 1)the Generating model 
+
 2)the Discriminating model
+
 In this particular case, the generating model will be taking a point in latent space, which is a randomly generated 100 element vector in this particular case and gives out an (28,28,1) sized vecor of pixel intensities.
 
 ![generator_plot](https://user-images.githubusercontent.com/67307833/109418546-e8369280-79ee-11eb-8ead-368ead2aa3b2.png)
