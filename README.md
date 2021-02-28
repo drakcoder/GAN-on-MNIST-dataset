@@ -47,4 +47,4 @@ The numbers are still kinda edgy but we are getting somewhere.
 
 As you can notice, a few numbers can be identified and the edginess of the previous images has decreased by a great extent
 
-This training could be taken further and the numbers could be made a little more identifiable, but there will exist a point where the accuracy of distinctable numbers will be flatlines and can be increased no further
+This training could be taken further and the numbers could be made a little more identifiable, but there will exist a point where the accuracy of distinctable numbers will be flatlined and cannot be increased further.
